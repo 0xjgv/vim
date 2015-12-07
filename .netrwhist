@@ -1,0 +1,11 @@
+let g:netrw_dirhistmax  =10
+let g:netrw_dirhist_cnt =9
+let g:netrw_dirhist_1='/Users/Juan/Documents/IronHack/Bootcamp/Rails/timetracking/config'
+let g:netrw_dirhist_2='/Users/Juan/Documents/IronHack/Bootcamp/Rails/timetracking/app/views/entries'
+let g:netrw_dirhist_3='/Users/Juan/Documents/IronHack/Bootcamp/Rails/timetracking/app/views/projects'
+let g:netrw_dirhist_4='/Users/Juan/Documents/IronHack/Bootcamp/Rails/linky/app/views/layouts'
+let g:netrw_dirhist_5='/Users/Juan/Documents/IronHack/Bootcamp/jQuery/exercise'
+let g:netrw_dirhist_6='/Users/Juan/Documents/IronHack/Bootcamp/jQuery/exercise3'
+let g:netrw_dirhist_7='/Users/Juan/Documents/IronHack/Bootcamp/jQuery/exercise3/spotify.html'
+let g:netrw_dirhist_8='/usr/local/var/www/.git'
+let g:netrw_dirhist_9='/Users/Juan/.vim/bundle'
