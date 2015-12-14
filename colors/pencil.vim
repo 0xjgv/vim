@@ -36,7 +36,6 @@ if exists('syntax on')
 endif
 
 let g:colors_name='pencil'
-
 if ! exists("g:pencil_higher_contrast_ui")
   let g:pencil_higher_contrast_ui = 0
 endif
@@ -59,7 +58,7 @@ if ! exists("g:pencil_spell_undercurl")
 endif
 
 " Colors
-let s:black           = { "gui": "#212121", "cterm": "0"   }
+let s:black           = { "gui": "#193549", "cterm": "0"   }
 let s:medium_gray     = { "gui": "#767676", "cterm": "243" }
 let s:white           = { "gui": "#FAFAFA", "cterm": "15"  }
 let s:actual_white    = { "gui": "#FFFFFF", "cterm": "231" }
@@ -76,9 +75,9 @@ else
   let s:subtle_black  = { "gui": "#303030", "cterm": "236" }
   let s:light_gray    = { "gui": "#E8EDEF", "cterm": "249" }
   let s:lighter_gray  = { "gui": "#F4F4F4", "cterm": "251" }
-endif
+endif 
 
-let s:pink            = { "gui": "#fb007a", "cterm": "9"   }
+let s:pink            = { "gui": "#fb007a", "cterm": "9"   } 
 let s:dark_red        = { "gui": "#C30771", "cterm": "1"   }
 let s:light_red       = { "gui": "#E32791", "cterm": "1"   }
 let s:orange          = { "gui": "#D75F5F", "cterm": "167" }
