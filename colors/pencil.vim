@@ -60,7 +60,7 @@ endif
 " Colors
 let s:black           = { "gui": "#193549", "cterm": "0"   }
 let s:medium_gray     = { "gui": "#767676", "cterm": "243" }
-let s:white           = { "gui": "#FAFAFA", "cterm": "15"  }
+let s:white           = { "gui": "#FFFFFF", "cterm": "231"  }
 let s:actual_white    = { "gui": "#FFFFFF", "cterm": "231" }
 let s:light_black     = { "gui": "#424242", "cterm": "8"   }
 let s:lighter_black   = { "gui": "#545454", "cterm": "240" }
@@ -171,19 +171,19 @@ call s:h("Constant",      {"fg": s:cyan})
 hi! link String           Constant
 hi! link Character        Constant
 hi! link Number           Constant
-hi! link Boolean          Constant
 hi! link Float            Constant
+hi! link Operator         Statement
 
-call s:h("Identifier",    {"fg": s:dark_blue})
+call s:h("Identifier",    {"fg": s:dark_blue, "gui": "bold", "cterm": "bold"})
 hi! link Function         Identifier
+hi! link Boolean          Identifier
 
-call s:h("Statement",     {"fg": s:green})
-hi! link Conditonal       Statement
+call s:h("Statement",     {"fg": s:green, "gui": "bold", "cterm": "bold"})
 hi! link Repeat           Statement
 hi! link Label            Statement
-hi! link Operator         Statement
 hi! link Keyword          Statement
 hi! link Exception        Statement
+hi! link Conditonal       Statement
 
 call s:h("PreProc",       {"fg": s:red})
 hi! link Include          PreProc
